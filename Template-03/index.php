@@ -6,24 +6,16 @@
 <div class="wrapper">
   <div id="ei-slider" class="ei-slider">
     <ul class="ei-slider-large">
-      <li> <img src="img/large/16.jpg" alt="">
-        <div class="ei-title text-right">
-          <h2>Professional</h2>
-          <h3>Service 24/7</h3>
-        </div>
-      </li>
       <li> <img src="img/large/08.jpg" alt="">
         <div class="ei-title">
           <h2>Passionate</h2>
           <h3>Endless</h3>
-        </div>
-      </li>
+      
       <li> <img src="img/large/09.jpg" alt="">
         <div class="ei-title">
           <h2>Tranquility</h2>
-          <h3>Privacy</h3>
-        </div>
-      </li>
+          <h3>Privacy
+
       <li> <img src="img/large/11.jpg" alt="">
         <div class="ei-title">
           <h2>Vintage</h2>
