@@ -1,3 +1,3 @@
 # T3-CaseStudy
 
-Thử đồng bộ về máy!!
+Bắt đầu Push thử từ Local lên Server
