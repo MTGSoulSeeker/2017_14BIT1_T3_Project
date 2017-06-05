@@ -1,0 +1,4 @@
+Hướng dẫn Push và Pull
+
+1/ tạo file
+2/ Push
