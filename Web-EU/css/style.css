@@ -3,8 +3,8 @@
 	Author URL: http://w3layouts.com
 	License: Creative Commons Attribution 3.0 Unported
 	License URL: http://creativecommons.org/licenses/by/3.0/
---*/ 
-/*-- Reset-Code --*/ 
+--*/
+/*-- Reset-Code --*/
 body {
 	padding: 0;
 	margin: 0;
@@ -76,8 +76,8 @@ a:focus, a:hover {
 	box-shadow: none;
 }
 
-/*-- //Reset-Code --*/ 
-/*-- Index-Page-Styling --*/ 
+/*-- //Reset-Code --*/
+/*-- Index-Page-Styling --*/
 
 /*-- Header --*/
 
@@ -162,9 +162,10 @@ a:focus, a:hover {
 
 	a.dropdown-toggle.hyper, .navbar-default .navbar-nav > li > a {
 		padding: 10px 20px;
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Tillana', cursive;
 		line-height: 0;
 		margin: 13px 5px 20px;
+		color: #DAA520;
 	}
 
 	.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -271,6 +272,7 @@ a:focus, a:hover {
 	.agileheader-topbar {
 		margin-top: 50px;
 		padding: 20px 0;
+
 	}
 
 	.agileheader-topbar-grid {
@@ -287,7 +289,7 @@ a:focus, a:hover {
 	}
 
 	.agileheader-topbar-grid1 p a:hover {
-		color: #c41228; 
+		color: #c41228;
 	}
 
 	.agileheader-topbar-grid2 {
@@ -908,12 +910,14 @@ div#my-cart-modal .close:hover, .close:focus {
 .wthreehome-latest-grid h4 {
 	font-size: 16px;
 	color: #555;
+	font-family: 'Martel', serif;
 }
 
 .wthreehome-latest-grid h5 {
-	font-family: 'Roboto', sans-serif;
+
 	font-weight: 400;
 	margin: 10px 0;
+	font-family: 'Archivo Black', sans-serif;
 }
 
 .wthreehome-latest-grid h6 a {
@@ -1005,7 +1009,7 @@ figure.effect-apollo:hover figcaption::before {
 /*-- Winter-Collection --*/
 
 .wthreewinter-coll {
-	background-image: url("../images/winter.jpg");
+	background-image: url("../images/6.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -1019,6 +1023,7 @@ figure.effect-apollo:hover figcaption::before {
 .wthreewinter-coll h1 {
 	font-size: 30px;
 	color: #FFF;
+	font-family: 'Balthazar', serif;
 }
 
 .wthreewinter-coll p {
@@ -1026,6 +1031,7 @@ figure.effect-apollo:hover figcaption::before {
 	margin: 20px auto;
 	line-height: 25px;
 	color: #FFF;
+	font-family: 'Quattrocento Sans', sans-serif;
 }
 
 .wthreeshop-a {
@@ -1045,7 +1051,7 @@ figure.effect-apollo:hover figcaption::before {
 	border-width: 3px;
 }
 
-/*-- //Winter-Collection --*/ 
+/*-- //Winter-Collection --*/
 
 /*-- Denim-Collection --*/
 
@@ -1125,6 +1131,7 @@ figure.effect-apollo:hover figcaption::before {
 	color: #fff;
 	text-shadow: 2px 2px #32323b;
 	margin-bottom: 20px;
+	font-family: 'Imprima', sans-serif;
 }
 
 .aitsclearance-sales-text h4 {
@@ -1132,6 +1139,7 @@ figure.effect-apollo:hover figcaption::before {
 	font-size: 30px;
 	text-shadow: 2px 2px #32323b;
 	margin-bottom: 20px;
+	font-family: 'Artifika', serif;
 }
 
 .aitsclearance-sales-text h5 {
@@ -2038,13 +2046,13 @@ button.btn.btn-danger.my-cart-btn {
 
 /*-- products-right --*/
 
-.breadcrumb.breadcrumb1  > li { 
+.breadcrumb.breadcrumb1  > li {
     font-size: 1.1em;
     font-weight: 300;
 }
 .breadcrumb.breadcrumb1 li a {
     color: #08cae2;
-} 
+}
 .breadcrumb.breadcrumb1  > .active,.breadcrumb.breadcrumb1 li a:hover{
     color: #000;
 }
@@ -2062,10 +2070,10 @@ button.btn.btn-danger.my-cart-btn {
     display: inline-block;
     float: right;
 	margin-left: 2em;
-} 
+}
 .product-top h4 {
     font-size: 1.3em;
-    color: #fff; 
+    color: #fff;
     float: left;
 }
 .product-top ul li a.dropdown-toggle {
@@ -2079,10 +2087,10 @@ button.btn.btn-danger.my-cart-btn {
     margin-top: 11px;
     border-color: #bbb;
 	min-width: 120px;
-} 
+}
 .product-grids {
     margin-top: 3em;
-} 
+}
 .agile-product-text {
     background: #08cae2;
     padding: 1.5em 2em;
@@ -2105,17 +2113,17 @@ button.btn.btn-danger.my-cart-btn {
 }
 	/*  UPDATED! flip the pane when hovered */
 .flip-container:hover .back {
-	-webkit-transform: rotateY(0deg); 
-	-moz-transform: rotateY(0deg); 
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
 	-o-transform: rotateY(0deg);
-	-ms-transform: rotateY(0deg); 
+	-ms-transform: rotateY(0deg);
 	transform: rotateY(0deg);
 }
 .flip-container:hover .front {
-	-webkit-transform: rotateY(180deg); 
-	-moz-transform: rotateY(180deg); 
-	-o-transform: rotateY(180deg); 
-	-ms-transform: rotateY(180deg); 
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 }
 
@@ -2129,7 +2137,7 @@ button.btn.btn-danger.my-cart-btn {
 /* flip speed goes here */
 .flipper {
 	transition: 0.6s;
-	transform-style: preserve-3d; 
+	transform-style: preserve-3d;
 	position: relative;
 }
 
@@ -2137,7 +2145,7 @@ button.btn.btn-danger.my-cart-btn {
 .front, .back {
 	backface-visibility: hidden;
 	transition: 0.6s;
-	transform-style: preserve-3d; 
+	transform-style: preserve-3d;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -2147,10 +2155,10 @@ button.btn.btn-danger.my-cart-btn {
 .front {
 	z-index: 2;
 	background:#000;
-	-webkit-transform: rotateY(0deg); 
-	-moz-transform: rotateY(0deg); 
-	-o-transform: rotateY(0deg); 
-	-ms-transform: rotateY(0deg); 
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
 	transform: rotateY(0deg);
 }
 .front img{
@@ -2158,43 +2166,43 @@ button.btn.btn-danger.my-cart-btn {
 }
 /* back, initially hidden pane */
 .back {
-	-webkit-transform: rotateY(-180deg); 
-	-moz-transform: rotateY(-180deg); 
-	-o-transform: rotateY(-180deg); 
-	-ms-transform: rotateY(-180deg); 
+	-webkit-transform: rotateY(-180deg);
+	-moz-transform: rotateY(-180deg);
+	-o-transform: rotateY(-180deg);
+	-ms-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
     background: #fd463e;
     padding:2em;
     text-align: center;
 }
 
-/* 
-	Some vertical flip updates 
+/*
+	Some vertical flip updates
 */
 .vertical.flip-container {
 	position: relative;
-} 
+}
 .vertical .back {
-	-webkit-transform: rotateX(180deg); 
-	-moz-transform: rotateX(180deg); 
-	-o-transform: rotateX(180deg); 
-	-ms-transform: rotateX(180deg); 
+	-webkit-transform: rotateX(180deg);
+	-moz-transform: rotateX(180deg);
+	-o-transform: rotateX(180deg);
+	-ms-transform: rotateX(180deg);
 	transform: rotateX(180deg);
 }
 
 .vertical.flip-container:hover .back {
-	-webkit-transform: rotateX(0deg); 
-	-moz-transform: rotateX(0deg); 
-	-o-transform: rotateX(0deg); 
-	-ms-transform: rotateX(0deg); 
+	-webkit-transform: rotateX(0deg);
+	-moz-transform: rotateX(0deg);
+	-o-transform: rotateX(0deg);
+	-ms-transform: rotateX(0deg);
     transform: rotateX(0deg);
 }
 
 .vertical.flip-container:hover .front {
-	-webkit-transform: rotateX(180deg); 
-	-moz-transform: rotateX(180deg); 
+	-webkit-transform: rotateX(180deg);
+	-moz-transform: rotateX(180deg);
 	-o-transform: rotateX(180deg);
-	-ms-transform: rotateX(180deg); 
+	-ms-transform: rotateX(180deg);
     transform: rotateX(180deg);
 }
 .back h4 {
@@ -2220,9 +2228,9 @@ button.btn.btn-danger.my-cart-btn {
     font-size: .5em;
     top: -.8em;
 }
-/*-- //team --*/ 
-/*-- cart-button --*/ 
-/*-- cart-css --*/ 
+/*-- //team --*/
+/*-- cart-button --*/
+/*-- cart-css --*/
 #staplesbmincart form {
     position: relative;
     padding: 1em;
@@ -2249,10 +2257,10 @@ button.btn.btn-danger.my-cart-btn {
     left: 68%;
     top:16.9%;
 	width: 420px;
-} 
+}
 .sbmincart-showing #staplesbmincart {
     display: block;
-    z-index: 9999; 
+    z-index: 9999;
     -webkit-animation: zoomIn .3s ease;
 	-moz-animation: zoomIn .3s ease;
 	-o-animation: zoomIn .3s ease;
@@ -2337,24 +2345,24 @@ p.sbmincart-empty-text {
     text-transform: uppercase;
     right: 0;
     top: 0;
-} 
+}
 /* Let's get this party started */
 #staplesbmincart form  ul::-webkit-scrollbar {
     width: 5px;
-} 
+}
 /* Track */
-#staplesbmincart form  ul::-webkit-scrollbar-track { 
-	-webkit-box-shadow: inset 0 0 6px #999; 
+#staplesbmincart form  ul::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px #999;
 	-moz-box-shadow: inset 0 0 6px #999;
 	-o-box-shadow: inset 0 0 6px #999;
-	-ms-box-shadow: inset 0 0 6px #999; 
-	box-shadow: inset 0 0 6px #999; 
+	-ms-box-shadow: inset 0 0 6px #999;
+	box-shadow: inset 0 0 6px #999;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	-o-border-radius: 10px;
 	-ms-border-radius: 10px;
 	border-radius: 10px;
-} 
+}
 /* Handle */
 #staplesbmincart form  ul::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
@@ -2362,15 +2370,15 @@ p.sbmincart-empty-text {
 	-o-border-radius: 10px;
 	-ms-border-radius: 10px;
     border-radius: 10px;
-    background: #3c43a4; 
+    background: #3c43a4;
 	-moz-box-shadow: inset 0 0 6px #3c43a4;
-	-o-box-shadow: inset 0 0 6px #3c43a4; 
-	-ms-box-shadow: inset 0 0 6px #3c43a4; 
+	-o-box-shadow: inset 0 0 6px #3c43a4;
+	-ms-box-shadow: inset 0 0 6px #3c43a4;
     -webkit-box-shadow: inset 0 0 6px #3c43a4;
-	box-shadow: inset 0 0 6px #3c43a4; 	
-} 
-/*-- //cart-css --*/ 
-/*-- cart-button --*/ 
+	box-shadow: inset 0 0 6px #3c43a4;
+}
+/*-- //cart-css --*/
+/*-- cart-button --*/
 .back form {
     margin-top: 0.5em;
 }
@@ -2387,7 +2395,7 @@ p.sbmincart-empty-text {
     -moz-transition: .5s all;
     transition: .5s all;
     padding:5px 7px;
-} 
+}
 .w3ls-cart i.fa {
     margin-right: 5px;
 }
@@ -2517,7 +2525,7 @@ button.w3view-cart {
 
 	#map {
 		width: 100%;
-		height: 600px;
+		height: 25%;
 	}
 
 	/*-- //Map --*/
@@ -2577,7 +2585,7 @@ button.w3view-cart {
 	text-transform: capitalize;
 	text-decoration: none;
 	display: block;
-} 
+}
 .panel-default {
 	border-color: #FFF;
 	background: #f5f5f5;
@@ -2837,6 +2845,7 @@ p.w3-agile {
 .w3aitscontactagile h1 {
 	font-size: 40px;
 	margin-bottom: 50px;
+	font-family: 'Nova Square', cursive;
 }
 
 .w3aitscontactagile {
@@ -2856,10 +2865,12 @@ p.w3-agile {
 	font-size: 35px;
 	color: #000;
 	margin-bottom: 30px;
+	font-family: 'Overlock', cursive;
 }
 
 .contact-info-grid-2 p {
 	line-height: 30px;
+	font-family: 'Lobster', cursive;
 }
 
 .wthreeaddressaits {
@@ -3005,13 +3016,13 @@ textarea.text {
 
 .single-price ul li:nth-child(4) a i.fa {
 	margin-right: 10px;
-} 
+}
 .single-price ul li a {
 	color: #31708f;
-} 
+}
 .single-price ul li a:hover {
 	color: #c41228;
-} 
+}
 p.single-price-text {
 	margin: 20px 0;
 	line-height: 25px;
@@ -3473,7 +3484,7 @@ p.single-price-text {
 		margin-left: 5%;
 	}
 	#map {
-		height: 500px;
+		height: 300px;
 	}
 	button.w3l-cart.pw3l-cart {
     font-size: 4em;
@@ -3800,6 +3811,7 @@ p.single-price-text {
 	}
 	.contact-info-grid-2 p {
 		font-size: 13px;
+		font-family: 'Lobster', cursive;
 	}
 }
 
@@ -4054,12 +4066,12 @@ p.single-price-text {
 	button.btn.btn-danger.my-cart-btn {
 		padding: 0 16px;
 	}
-} 
+}
 @media screen and (max-width: 800px) {
 	a.dropdown-toggle.hyper, .navbar-default .navbar-nav > li > a {
 		padding: 10px 6px;
 		font-size: 12px;
-	}	
+	}
 	a.dropdown-toggle.hyper, .navbar-default .navbar-nav > li > a {
 		margin: 13px 2px 17px;
 	}
@@ -4072,11 +4084,11 @@ p.single-price-text {
 	li.wthreesearch {
 		right: 9%;
 	}
-	li.wthreesearch input[type="search"] { 
+	li.wthreesearch input[type="search"] {
 		width: 115px;
 	}
 	.agileheader-topbar-grid{
-		width: 40%; 
+		width: 40%;
 	}
 	.agileheader-topbar-grid.agileheader-topbar-grid2 {
 		float: right;
@@ -4089,8 +4101,8 @@ p.single-price-text {
 	.aitsclearance-sales-text h2 {
 		font-size: 32px;
 	}
-	.aitsclearance-sales-text h4 { 
-		font-size: 20px; 
+	.aitsclearance-sales-text h4 {
+		font-size: 20px;
 	}
 	.aitsclearance-sales-text h5 {
 		font-size: 36px;
@@ -4101,13 +4113,13 @@ p.single-price-text {
 	.agileinfonewsl {
 		padding: 105px 0;
 	}
-	.agileshoppinggrids-bottom-grid .wthreeshop-a a { 
+	.agileshoppinggrids-bottom-grid .wthreeshop-a a {
 		padding: 10px 45px;
 	}
 	.w3layouts-nav-agile {
 		width: 20.3%;
-	} 
-	.dropdown-menu.multi { 
+	}
+	.dropdown-menu.multi {
 		left: -199px;
 	}
 	ul.dropdown-menu.multi.multi4 {
@@ -4117,7 +4129,7 @@ p.single-price-text {
 		left: -313px;
 	}
 	.aitsyourself-grid2 h3, .aitsyourself-grid2 h4 {
-		font-size: 19px; 
+		font-size: 19px;
 	}
 	.aitscommercial h2 {
 		font-size: 22px;
@@ -4133,17 +4145,17 @@ p.single-price-text {
 		padding: 60px 0;
 	}
 	.w3lsshoesaits-info h3 {
-		font-size: 40px; 
+		font-size: 40px;
 	}
 	.w3lsshoesaits-info p {
 		width: 70%;
 	}
 	.wthreeshop-a a {
-		padding: 10px 40px; 
+		padding: 10px 40px;
 	}
 	.w3lsshoesaits {
 		padding: 100px 0;
-	} 
+	}
 	.agilenwew3lsfashions h4 {
 		font-size: 15px;
 		margin-bottom: 25px;
@@ -4152,14 +4164,14 @@ p.single-price-text {
 		font-size: 35px;
 		margin-bottom: 28px;
 	}
-	.clock .column { 
+	.clock .column {
 		width: 15%;
 	}
 	.timer {
 		font-size: 58px;
 	}
 	.text {
-		font-size: 13px; 
+		font-size: 13px;
 	}
 	.agilenwew3lsfashions {
 		padding: 70px 0;
@@ -4182,25 +4194,25 @@ p.single-price-text {
 		padding: 0 15px 25px;
 	}
 	.w3paymentsaits h4 {
-		font-size: 18px; 
+		font-size: 18px;
 	}
 	.agilelocationsw3ls-grid1 h1 {
-		font-size: 28px; 
+		font-size: 28px;
 	}
-	.agilelocationsw3ls-grid1 p { 
+	.agilelocationsw3ls-grid1 p {
 		padding: 8px 0;
 	}
 	.aitsstoreaddressw3-grid {
-		width: 23.5%; 
+		width: 23.5%;
 	}
 	#map {
 		height: 300px;
 	}
 	.email-form input.email {
-		padding: 13px 10px; 
+		padding: 13px 10px;
 	}
-	.email-form input.submit { 
-		padding: 13px 0; 
+	.email-form input.submit {
+		padding: 13px 0;
 	}
 	.w3aitsfaq h1, .w3aitscontactagile h1, .w3aitscodes h1.w3lsmainheading, h1.agileits-icons-title, h2.agileits-icons-title {
 		font-size: 30px;
@@ -4219,17 +4231,17 @@ p.single-price-text {
 		padding: 0 20px;
 	}
 	.contact-info-grid-2 h2 {
-		font-size: 24px; 
-	} 
-	.cbp-pginfo h3, .cbp-pginfo span { 
+		font-size: 24px;
+	}
+	.cbp-pginfo h3, .cbp-pginfo span {
 		width: 74%;
-		font-size: 16px; 
+		font-size: 16px;
 	}
 	.cbp-pginfo span {
-		width: 26%; 
+		width: 26%;
 	}
-	.cbp-pggrid > li { 
-		width: 32%; 
+	.cbp-pggrid > li {
+		width: 32%;
 		padding: 20px 1% 25px 1%;
 	}
 	li.cbp-pgoptcompare {
@@ -4237,23 +4249,23 @@ p.single-price-text {
 	}
 	button.btn.btn-danger.my-cart-btn {
 		padding: 6px 11px;
-		font-size: 32px; 
+		font-size: 32px;
 	}
 	.single-price ul li:nth-child(1) {
 		font-size: 33px;
 	}
-	.single-top-right .agilesocialwthree { 
+	.single-top-right .agilesocialwthree {
 		margin-top: 30px;
 	}
 	.panel-body {
-		padding: 1.5em; 
+		padding: 1.5em;
 	}
 	h1.w3wthreeheadingaits {
 		font-size: 30px;
 		padding: 30px 0;
 	}
 	.cbp-pgoptions li:before, .cbp-pgoptions li > span {
-		font-size: 17px; 
+		font-size: 17px;
 	}
 	.cbp-pgoptions li.cbp-pgoptsize > span {
 		font-size: 20px;
@@ -4261,8 +4273,8 @@ p.single-price-text {
 	input[type=checkbox].css-checkbox + label.css-label {
 		padding-left: 0;
 		height: 25px;
-		width: 25px; 
-		background-position: 0px -24px; 
+		width: 25px;
+		background-position: 0px -24px;
 		background-size: 100%;
 	}
 	li.cbp-pgoptcompare {
@@ -4270,29 +4282,29 @@ p.single-price-text {
 		text-align: center;
 	}
 	.single-price ul li:nth-child(1) small {
-		font-size: 14px; 
+		font-size: 14px;
 	}
 	button.w3l-cart.pw3l-cart {
     font-size: 3em;
 		padding: 0.3em 0.3em;
 		border-left: none!important;
 	}
-} 
+}
 @media screen and (max-width: 768px) {
 	li.wthreesearch {
 		right: 8%;
 	}
-	a.navbar-brand { 
+	a.navbar-brand {
 		padding: 15px 9px;
 	}
-	.agileheader-topbar { 
+	.agileheader-topbar {
 		padding: 15px 0;
-	}	
+	}
 	.wthreewinter-coll h1 {
-		font-size: 25px; 
+		font-size: 25px;
 	}
 	.wthreewinter-coll p {
-		width: 75%; 
+		width: 75%;
 	}
 	.wthreewinter-coll {
 		padding: 75px 0;
@@ -4307,7 +4319,7 @@ p.single-price-text {
 		height: 490px;
 	}
 	.aitsclearance-sales-text,.agileinfonewsl {
-		padding: 65px 0; 
+		padding: 65px 0;
 	}
 	.dropdown-menu.multi {
 		left: -190px;
@@ -4324,14 +4336,14 @@ p.single-price-text {
 	.w3layouts-nav-agile {
 		width: 20%;
 	}
-	li.wthreecartaits { 
+	li.wthreecartaits {
 		top: 1px;
-		font-size: 35px; 
+		font-size: 35px;
 	}
 	.w3lsshoesaits-info h3 {
 		font-size: 32px;
 	}
-	.w3lsshoesaits-info p { 
+	.w3lsshoesaits-info p {
 		margin: 20px auto;
 	}
 	.w3lsshoesaits {
@@ -4347,10 +4359,10 @@ p.single-price-text {
 		padding: 55px 0;
 	}
 	.w3lsnewsletter-grid-2 {
-		width: 70%; 
+		width: 70%;
 	}
 	.w3lsnewsletter {
-		padding: 40px 0; 
+		padding: 40px 0;
 	}
 	.cbp-pginfo h3, .cbp-pginfo span {
 		width: 80%;
@@ -4361,11 +4373,11 @@ p.single-price-text {
 		padding: 15px 0;
 		text-align: center;
 	}
-	.single-top-right { 
+	.single-top-right {
 		padding-right: 0;
 	}
 	.single-top-right h1 {
-		font-size: 22px; 
+		font-size: 22px;
 	}
 	.imagezoom-view {
 		display: none;
@@ -4378,7 +4390,7 @@ p.single-price-text {
 	.navbar-toggle{
 		float: none;
 		margin-left: 12em;
-		background: #c41228; 
+		background: #c41228;
 	}
 	.navbar-default .navbar-toggle {
 		border-color: #c41228;
@@ -4408,13 +4420,13 @@ p.single-price-text {
 	li.wthreesearch input[type="search"] {
 		width: 190px;
 	}
-	.agileheader-topbar-grid.agileheader-topbar-grid2 { 
+	.agileheader-topbar-grid.agileheader-topbar-grid2 {
 		width: 60%;
-	}  
-} 
+	}
+}
 @media screen and (max-width: 736px) {
-	.dropdown-menu.multi { 
-		padding: 0px 0 0; 
+	.dropdown-menu.multi {
+		padding: 0px 0 0;
 	}
 	.w3layouts-nav-agile {
 		width: 25%;
@@ -4431,10 +4443,10 @@ p.single-price-text {
 		padding: 14px;
 		position: inherit !important;
 		min-width: 0 !important;
-	} 
+	}
 	a.dropdown-toggle.hyper, .navbar-default .navbar-nav > li > a {
 		margin: 13px 2px;
-	} 
+	}
 	.w3layouts-mens-nav-agileits-1, .w3layouts-womens-nav-agileits-1, .w3layouts-acc-nav-agileits-1, .w3layouts-hot-nav-agileits-1 {
 		padding-left: 0 !important;
 	}
@@ -4444,27 +4456,27 @@ p.single-price-text {
 	.aitsclearance-sales-text h4 {
 		font-size: 17px;
 	}
-	.cbp-pginfo h3, .cbp-pginfo span { 
-		padding: 15px 8px; 
+	.cbp-pginfo h3, .cbp-pginfo span {
+		padding: 15px 8px;
 	}
 	.aitsyourself-grid2 h3, .aitsyourself-grid2 h4 {
 		font-size: 17px;
 	}
 	.aitsstoreaddressw3-grid {
 		width: 31.8%;
-	} 
+	}
 	div#small-dialog1, div#small-dialog2, div#small-dialog3, div#small-dialog4 {
 		width: 45%;
-		padding: 20px; 
+		padding: 20px;
 	}
-	.contact-info-grid-2 { 
+	.contact-info-grid-2 {
 		margin-top: 2em;
 	}
 	.panel-title > a {
-		font-size: 0.9em; 
+		font-size: 0.9em;
 	}
 	.single-price ul li {
-		font-size: 13px; 
+		font-size: 13px;
 	}
 	.agileinfofooter {
 		padding: 20px 15px;
@@ -4472,7 +4484,7 @@ p.single-price-text {
 	.w3lscopyrightaits {
 		padding: 0 15px 20px;
 	}
-} 
+}
 @media screen and (max-width: 667px) {
 	.agileheader-topbar-grid,.agileheader-topbar-grid.agileheader-topbar-grid2{
 		width: 100%;
@@ -4482,14 +4494,14 @@ p.single-price-text {
 	.agileheader-topbar-grid.agileheader-topbar-grid2 {
 		margin-top: 1em;
 	}
-	.navbar-toggle { 
-		margin-left: 9em; 
-	} 
+	.navbar-toggle {
+		margin-left: 9em;
+	}
 	.w3slideraits {
 		height: 400px;
 	}
 	.wthreehome-latest {
-		padding: 40px 0; 
+		padding: 40px 0;
 	}
 	.wthreewinter-coll h1 {
 		font-size: 22px;
@@ -4523,10 +4535,10 @@ p.single-price-text {
 	}
 	.agileinfonewsl h3 {
 		font-size: 25px;
-		margin-bottom: 15px; 
+		margin-bottom: 15px;
 	}
 	.agileinfonewsl p {
-		font-size: 14px; 
+		font-size: 14px;
 		margin-bottom: 30px;
 	}
 	.aitsclearance-sales-text, .agileinfonewsl {
@@ -4541,7 +4553,7 @@ p.single-price-text {
 		text-align: center;
 		margin-top: 1em;
 	}
-	.agileheader-banner.w3mensaits { 
+	.agileheader-banner.w3mensaits {
 		padding-top: 0;
 	}
 	h1.w3wthreeheadingaits {
@@ -4569,14 +4581,14 @@ p.single-price-text {
 	.single-price ul li:nth-child(1) {
 		font-size: 30px;
 	}
-	.aitssinglew3 .agileits.my-cart-btn { 
+	.aitssinglew3 .agileits.my-cart-btn {
 		width: 30%!important;
 	}
 	.aitsaccordionw3layouts {
 		margin-top: 25px;
 	}
 	.aitsaccordionw3layouts .panel-heading {
-		padding: 12px; 
+		padding: 12px;
 	}
 	.panel-body {
 		padding: 1em;
@@ -4588,22 +4600,22 @@ p.single-price-text {
 		font-size: 15px;
 	}
 	.aitscommercial-grid1 a.popup-with-zoom-anim {
-		padding: 8px 30px; 
+		padding: 8px 30px;
 	}
 	.agilelocationsw3ls-grid1 h1 {
 		font-size: 25px;
 	}
 	.aitsstoreaddressw3-grid {
 		width: 31.6%;
-	} 
+	}
 	.w3aitsfaq h1, .w3aitscontactagile h1, .w3aitscodes h1.w3lsmainheading, h1.agileits-icons-title, h2.agileits-icons-title {
-		font-size: 25px; 
+		font-size: 25px;
 	}
 	div#small-dialog1, div#small-dialog2, div#small-dialog3, div#small-dialog4 {
-		width: 60%; 
+		width: 60%;
 	}
-	#small-dialog1 h3, #small-dialog2 h3, #small-dialog3 h4 { 
-		margin-bottom: 20px; 
+	#small-dialog1 h3, #small-dialog2 h3, #small-dialog3 h4 {
+		margin-bottom: 20px;
 	}
 	.w3paymentsaits h1 {
 		font-size: 32px;
@@ -4614,19 +4626,19 @@ p.single-price-text {
 	}
 	.w3paymentsaitspay {
 		margin-bottom: 20px;
-	} 
+	}
 	#staplesbmincart {
     position: fixed;
 		left: 29%;
 		top: 7.9%;
 		width: 420px;
 	}
-} 
+}
 @media screen and (max-width: 640px) {
 	.w3paymentsaits h1 {
 		font-size: 28px;
 		margin-bottom: 35px;
-	}	
+	}
 	div#my-cart-modal {
 		padding: 0 !important;
 	}
@@ -4636,7 +4648,7 @@ p.single-price-text {
 		top: 7.9%;
 		width: 420px;
 	}
-} 
+}
 @media screen and (max-width: 600px) {
 	.w3slideraits {
 		height: 350px;
@@ -4647,7 +4659,7 @@ p.single-price-text {
 	.email-form input.email {
 		padding: 11px 10px;
 	}
-	.email-form input.submit { 
+	.email-form input.submit {
 		font-size: 12px;
 		width: 26%;
 	}
@@ -4673,8 +4685,8 @@ p.single-price-text {
 	.aitsstoreaddressw3-grid {
 		width: 31.5%;
 	}
-	.icons .bs-glyphicons li { 
-		width: 31%; 
+	.icons .bs-glyphicons li {
+		width: 31%;
 	}
 	.navbar-toggle {
 		margin-left: 6em;
@@ -4682,14 +4694,14 @@ p.single-price-text {
 	.aitsclearance-sales-text h5 {
 		font-size: 26px;
 	}
-	.wthreeshop-a a { 
+	.wthreeshop-a a {
 		font-size: 11px;
 	}
-	.agileshoppinggrids-bottom h3 { 
+	.agileshoppinggrids-bottom h3 {
 		font-size: 20px;
 	}
-	.agileinfofooter-grid ul li { 
-		letter-spacing: 0px; 
+	.agileinfofooter-grid ul li {
+		letter-spacing: 0px;
 	}
 	h1.w3wthreeheadingaits {
 		font-size: 22px;
@@ -4708,7 +4720,7 @@ p.single-price-text {
 		font-size: 14px;
 	}
 	.w3lsnewsletter-grid-1 p, .w3lsnewsletter-grid-1 h2 {
-		font-size: 22px; 
+		font-size: 22px;
 	}
 	.agileshopping, .wthreeabout, .w3laccessoriesaits, .w3aitssinglewthree, .agilelocationsw3ls, .aitsstoreaddressw3, .w3aitsfaq, .w3aitscodes, .aitsiconswthree, .w3aitscontactagile, .w3paymentsaits {
 		padding: 40px 0;
@@ -4721,7 +4733,7 @@ p.single-price-text {
 		padding: 15px;
 	}
 	.aitsstoreaddressw3-grid h5 {
-		font-size: 17px; 
+		font-size: 17px;
 	}
 	#map {
 		height: 220px;
@@ -4731,18 +4743,18 @@ p.single-price-text {
 	}
 	.panel-heading {
 		padding: 10px 15px;
-	}  
+	}
 	div#my-cart-modal .modal-dialog {
 		width: 80%;
 	}
-	div#my-cart-modal .modal-content { 
+	div#my-cart-modal .modal-content {
 		padding: 20px;
 	}
-	div#my-cart-modal button.btn.btn-default, div#my-cart-modal button.btn.btn-primary { 
+	div#my-cart-modal button.btn.btn-default, div#my-cart-modal button.btn.btn-primary {
 		width: 20%;
 	}
-	 
-} 
+
+}
 @media screen and (max-width:568px) {
 	#staplesbmincart {
 		position: fixed;
@@ -4759,7 +4771,7 @@ p.single-price-text {
 		height: 310px;
 	}
 	.wthreehome-latest-grid h4 {
-		font-size: 14px; 
+		font-size: 14px;
 	}
 	.wthreehome-latest {
 		padding: 35px 0;
@@ -4767,8 +4779,8 @@ p.single-price-text {
 	.wthreewinter-coll h1 {
 		font-size: 19px;
 	}
-	.wthreewinter-coll p { 
-		margin: 14px auto; 
+	.wthreewinter-coll p {
+		margin: 14px auto;
 	}
 	.style-grid ,.aitscommercial-grid, .agilelocationsw3ls-grid {
 		width: 100%;
@@ -4789,7 +4801,7 @@ p.single-price-text {
 	.aitsclearance-sales-text h5 small {
 		font-size: 14px;
 	}
-	.aitsclearance-sales-text { 
+	.aitsclearance-sales-text {
 		width: 77%;
 	}
 	.agileshoppinggrids-bottom-grid {
@@ -4799,7 +4811,7 @@ p.single-price-text {
 		width: 95%;
 	}
 	.agileinfonewsl h3 {
-		font-size: 22px; 
+		font-size: 22px;
 	}
 	.agileinfofooter-grid {
 		width: 100%;
@@ -4811,17 +4823,17 @@ p.single-price-text {
 	.agileinfofooter-grids {
 		padding-bottom: 20px;
 	}
-	.w3lscopyrightaitsgrid1 p { 
+	.w3lscopyrightaitsgrid1 p {
 		margin-top: 0;
 	}
 	.w3layouts-nav-agile {
-		width: 27%; 
+		width: 27%;
 	}
-	ul.multi-column-dropdown li { 
+	ul.multi-column-dropdown li {
 		font-size: 13px;
 	}
 	.about-us-text h1 {
-		font-size: 20px; 
+		font-size: 20px;
 	}
 	.about-us-text {
 		padding: 25px 25px 0;
@@ -4836,11 +4848,11 @@ p.single-price-text {
 		margin: 12px 0;
 		font-size: 13px;
 	}
-	.aitscommercial-grid1 a.popup-with-zoom-anim { 
+	.aitscommercial-grid1 a.popup-with-zoom-anim {
 		font-size: 12px;
 	}
 	.aitsstoreaddressw3-grid {
-		width: 47%; 
+		width: 47%;
 	}
 	.panel-title > a {
 		font-size: 0.8em;
@@ -4853,7 +4865,7 @@ p.single-price-text {
 	}
 	.w3lsnewsletter-grid-1 p, .w3lsnewsletter-grid-1 h2 {
 		font-size: 19px;
-	} 
+	}
 	.wthreeaddressaits-grid1 {
 		width: 100%;
 		float: none;
@@ -4881,10 +4893,10 @@ p.single-price-text {
 	}
 	.navbar-toggle {
 		margin-left: 5em;
-	} 
+	}
 	td.text-center {
 		padding: 0 !important;
-	} 
+	}
 	#staplesbmincart {
 		position: fixed;
 		left: 5%;
@@ -4898,12 +4910,12 @@ p.single-price-text {
     margin: 5px 0 10px;
     padding: 0.5em;
 	}
-} 
+}
 @media screen and (max-width: 414px) {
-	.navbar-toggle { 
-		padding: 7px 7px; 
+	.navbar-toggle {
+		padding: 7px 7px;
 	}
-	.agileheader-topbar-grid2 ul li { 
+	.agileheader-topbar-grid2 ul li {
 		margin: 0 4px;
 	}
 	.w3slideraits {
@@ -4912,14 +4924,14 @@ p.single-price-text {
 	.wthreehome-latest {
 		padding: 25px 0;
 	}
-	.wthreehome-latest-grid h5 { 
+	.wthreehome-latest-grid h5 {
 		font-size: 12px;
 	}
 	.wthreehome-latest-grid h4 {
 		font-size: 13px;
 	}
-	.wthreehome-latest-grid h6 a { 
-		font-size: 13px; 
+	.wthreehome-latest-grid h6 a {
+		font-size: 13px;
 	}
 	.wthreewinter-coll h1 {
 		font-size: 16px;
@@ -4932,7 +4944,7 @@ p.single-price-text {
 		padding: 10px 16px;
 	}
 	.wthreeshop-a {
-		margin-top: 21px; 
+		margin-top: 21px;
 	}
 	.wthreewinter-coll, .aitsclearance-sales-text, .agileinfonewsl {
 		padding: 35px 0;
@@ -4963,18 +4975,18 @@ p.single-price-text {
 		font-size: 17px;
 	}
 	p {
-		font-size: 13px; 
+		font-size: 13px;
 	}
-	div#my-cart-modal .modal-content { 
+	div#my-cart-modal .modal-content {
 		padding: 18px;
 	}
-	div#my-cart-modal button.btn.btn-default, div#my-cart-modal button.btn.btn-primary { 
-		width: 24%; 
-		font-size: 13px; 
+	div#my-cart-modal button.btn.btn-default, div#my-cart-modal button.btn.btn-primary {
+		width: 24%;
+		font-size: 13px;
 	}
 	.modal-footer {
-		padding: 15px 0 0; 
-	} 
+		padding: 15px 0 0;
+	}
 	.w3layouts-mens-nav-agileits-1, .w3layouts-womens-nav-agileits-1, .w3layouts-acc-nav-agileits-1, .w3layouts-hot-nav-agileits-1 {
 		width: 100% !important;
 		float: none;
@@ -4985,8 +4997,8 @@ p.single-price-text {
 	.dropdown-menu p {
 		margin-bottom: 10px;
 	}
-	p.promo { 
-		padding: 7px 4px; 
+	p.promo {
+		padding: 7px 4px;
 		letter-spacing: 0px;
 	}
 	.aitsyourself-grid2 h3, .aitsyourself-grid2 h4 {
@@ -5045,12 +5057,12 @@ p.single-price-text {
 		font-size: 10px;
 	}
 	.aitsstoreaddressw3-grid {
-		width: 47%; 
+		width: 47%;
 	}
 	.aitsstoreaddressw3-grid h5 {
 		font-size: 15px;
 	}
-	.aitsstoreaddressw3-grid address ul li { 
+	.aitsstoreaddressw3-grid address ul li {
 		font-size: 12px;
 	}
 	div#small-dialog1, div#small-dialog2, div#small-dialog3, div#small-dialog4 {
@@ -5064,8 +5076,9 @@ p.single-price-text {
 	}
 	.contact-info-grid-2 p {
 		line-height: 28px;
+		font-family: 'Lobster', cursive;
 	}
-	.wthreeaddressaits-grid1 ul li { 
+	.wthreeaddressaits-grid1 ul li {
 		font-size: 12px;
 	}
 	h1.w3wthreeheadingaits {
@@ -5079,8 +5092,8 @@ p.single-price-text {
 		width: 70%;
 		padding: 10px 1%;
 	}
-	.single-top-right { 
-		margin-top: 2em; 
+	.single-top-right {
+		margin-top: 2em;
 	}
 	.single-top-right h1 {
 		font-size: 18px;
@@ -5088,8 +5101,8 @@ p.single-price-text {
 	.single-price ul li:nth-child(1) {
 		font-size: 25px;
 	}
-	.panel-body { 
-		font-size: 13px; 
+	.panel-body {
+		font-size: 13px;
 	}
 	.w3lsnewsletter {
 		padding: 30px 0;
@@ -5098,7 +5111,7 @@ p.single-price-text {
 		width: 40%!important;
 		font-size: 13px!important;
 	}
-	div#my-cart-modal .modal-content { 
+	div#my-cart-modal .modal-content {
 		padding: 20px;
 	}
 	.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
@@ -5111,34 +5124,34 @@ p.single-price-text {
 		margin-left: 3em;
 	}
 	.dropdown-menu.multi, ul.dropdown-menu.multi.multi2, ul.dropdown-menu.multi.multi3, ul.dropdown-menu.multi.multi4 {
-		padding: 8px; 
+		padding: 8px;
 	}
-	ul.multi-column-dropdown li { 
-		line-height: 28px; 
+	ul.multi-column-dropdown li {
+		line-height: 28px;
 	}
 	a.dropdown-toggle.hyper, .navbar-default .navbar-nav > li > a {
 		margin: 5px 2px;
 	}
-	.aitsaccordionw3layouts div#collapseThree h3 { 
+	.aitsaccordionw3layouts div#collapseThree h3 {
 		font-size: 20px;
 	}
 	.aitsaccordionw3layouts div#collapseThree {
 		padding: 25px 20px;
 	}
-	.aitsaccordionw3layouts div#collapseThree h4 { 
-		font-size: 14px; 
+	.aitsaccordionw3layouts div#collapseThree h4 {
+		font-size: 14px;
 	}
-	.aitsaccordionw3layouts div#collapseThree span { 
+	.aitsaccordionw3layouts div#collapseThree span {
 		padding-left: 105px;
 		padding-top: 0;
 		background-size: 61%;
 	}
-	.aitsaccordionw3layouts a.next { 
-		margin: 0; 
-		font-size: 13px; 
+	.aitsaccordionw3layouts a.next {
+		margin: 0;
+		font-size: 13px;
 	}
 	.aitsaccordionw3layouts ul.ship li {
-		font-size: 13px; 
+		font-size: 13px;
 	}
 	.aitsaccordionw3layouts ul.ship {
 		margin-top: 20px;
@@ -5163,11 +5176,11 @@ p.single-price-text {
 		font-size: 12px;
 		margin: 0 3px;
 	}
-	.dropdown-menu p { 
+	.dropdown-menu p {
 		font-size: .8em;
-	} 
-	
-} 
+	}
+
+}
 @media screen and (max-width: 384px) {
 	.w3slideraits {
 		height: 220px;
@@ -5176,14 +5189,14 @@ p.single-price-text {
 		padding: 10px 30px;
 	}
 	.agileinfonewsl p {
-		font-size: 13px; 
+		font-size: 13px;
 		margin-bottom: 20px;
 	}
 	.agileinfonewsl h3 {
 		font-size: 20px;
 	}
 	div#my-cart-modal .modal-header {
-		padding: 0 5px 8px; 
+		padding: 0 5px 8px;
 	}
 	.w3paymentsaits h4 {
 		font-size: 14px;
@@ -5191,7 +5204,7 @@ p.single-price-text {
 	.agilelocationsw3ls-grid1 h1 {
 		font-size: 18px;
 		margin-bottom: 0px;
-	}	
+	}
 	.wthreeshop-a {
 		margin-top: 5px;
 		padding: 0;
@@ -5206,16 +5219,16 @@ p.single-price-text {
 	.panel-body {
 		font-size: 12px;
 	}
-	input[type="text"], input[type="password"], input.email.aitsw3ls, textarea.text { 
-		margin-bottom: 15px; 
+	input[type="text"], input[type="password"], input.email.aitsw3ls, textarea.text {
+		margin-bottom: 15px;
 		padding: 10px;
 	}
-	ul.tick li { 
+	ul.tick li {
 		font-size: 13px;
 	}
-	ul.tick { 
-		margin: 5px 0 20px; 
-	} 
+	ul.tick {
+		margin: 5px 0 20px;
+	}
 	#staplesbmincart {
 		position: fixed;
 		left: 3%;
@@ -5228,11 +5241,11 @@ p.single-price-text {
 	}
 }
 @media screen and (max-width: 375px) {
-	.email-form input.email { 
+	.email-form input.email {
 		width: 68%;
-		font-size: 12px; 
+		font-size: 12px;
 	}
-	.email-form input.submit {  
+	.email-form input.submit {
 		width: 28%;
 	}
 	.w3lsnewsletter-grid-2 {
@@ -5243,7 +5256,7 @@ p.single-price-text {
 	}
 	.single-top-left {
 		margin-left: 22%;
-		width: 70%; 
+		width: 70%;
 	}
 	a.navbar-brand {
 		font-size: 16px;
@@ -5260,7 +5273,7 @@ p.single-price-text {
 	}
 	.panel-group .panel + .panel {
 		margin-top: 0;
-	}  
+	}
 	#staplesbmincart {
 		position: fixed;
 		left: 3%;
@@ -5287,28 +5300,28 @@ p.single-price-text {
 	.w3slideraits {
 		height:190px;
 	}
-}   
+}
 @media screen and (max-width: 320px) {
-	.navbar-default .navbar-toggle { 
+	.navbar-default .navbar-toggle {
 		margin: 10px 20px 0;
 	}
-	li.wthreecartaits { 
+	li.wthreecartaits {
 		font-size: 30px;
 		right: 15%;
 		top: 8px;
-	}	
-	.badge { 
+	}
+	.badge {
 		padding: 3px 5px;
-		font-size: 9px; 
+		font-size: 9px;
 	}
 	.agileheader-topbar-grid1 p {
-		margin-left: 0; 
-	} 
+		margin-left: 0;
+	}
 	.agilemodel-slider {
 		height: 235px!important;
 	}
-	.film_roll_prev, .film_roll_next { 
-		top: 36% !important; 
+	.film_roll_prev, .film_roll_next {
+		top: 36% !important;
 	}
 	.wthreehome-latest-grid {
 		float: none;
@@ -5318,13 +5331,13 @@ p.single-price-text {
 	.wthreewinter-coll h1 {
 		font-size: 14px;
 	}
-	.style-grid-1-text h3, .style-grid-2-text h3 { 
+	.style-grid-1-text h3, .style-grid-2-text h3 {
 		margin-bottom: 6px;
 	}
 	.aitsclearance-sales-text h2 {
 		font-size: 18px;
 	}
-	.aitsclearance-sales-text h4 { 
+	.aitsclearance-sales-text h4 {
 		margin-bottom: 12px;
 	}
 	.aitsclearance-sales-text h2 {
@@ -5352,14 +5365,14 @@ p.single-price-text {
 	.aitsaccordionw3layouts div#collapseThree h3 {
 		font-size: 16px;
 	}
-	.single-top-right { 
+	.single-top-right {
 		padding: 0;
 	}
 	.aitsaccordionw3layouts div#collapseThree h4 {
 		font-size: 13px;
 	}
 	.aitsaccordionw3layouts div#collapseThree span {
-		padding-left: 84px; 
+		padding-left: 84px;
 	}
 	h1.w3wthreeheadingaits {
 		font-size: 15px;
@@ -5378,11 +5391,11 @@ p.single-price-text {
 		padding: 6px 0;
 	}
 	.cbp-pggrid > li {
-		width: 85%; 
+		width: 85%;
 	}
 	.aitsaccordionw3layouts .panel-heading {
 		padding: 8px 12px;
-	} 
+	}
 	.w3paymentsaits h4 {
 		font-size: 13px;
 	}
@@ -5393,13 +5406,13 @@ p.single-price-text {
 		font-size: 18px;
 	}
 	.aitsyourself-grid2 {
-		width: 31%; 
+		width: 31%;
 	}
 	.aitsyourself-grid1 {
-		width: 36%; 
+		width: 36%;
 	}
-	.w3laccessoriesaits-grids { 
-		width: 90%; 
+	.w3laccessoriesaits-grids {
+		width: 90%;
 	}
 	.w3lsshoesaits-info p {
 		margin: 15px auto;
@@ -5408,7 +5421,7 @@ p.single-price-text {
 		padding: 30px 0;
 	}
 	.agilenwew3lsfashions h3 {
-		font-size: 20px; 
+		font-size: 20px;
 	}
 	.agilenwew3lsfashions {
 		padding: 35px 0;
@@ -5423,23 +5436,23 @@ p.single-price-text {
 		font-size: 15px;
 		margin-bottom: 20px;
 	}
-	ul.tick li { 
+	ul.tick li {
 		padding: 0;
 		width: 100%;
 		float: none;
 	}
 	input[type="submit"] {
-		padding: 8px 0; 
-		font-size: 13px; 
+		padding: 8px 0;
+		font-size: 13px;
 	}
 	ul.tick {
 		margin: 5px 0 15px;
 	}
 	#small-dialog1 h3, #small-dialog2 h3, #small-dialog3 h4 {
-		font-size: 20px; 
+		font-size: 20px;
 	}
 	.w3aitscodes h3.head-top {
-		font-size: 21px; 
+		font-size: 21px;
 	}
 	.contact-info-grid-2 h2 {
 		font-size: 20px;
@@ -5449,9 +5462,9 @@ p.single-price-text {
 	}
 	.contact-info-grid-2 h2 {
 		font-size: 19px;
-	} 
+	}
 	div#my-cart-modal .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
-		padding: 10px 4px; 
+		padding: 10px 4px;
 	}
 	#staplesbmincart {
 		position: fixed;
@@ -5462,5 +5475,5 @@ p.single-price-text {
 	.w3slideraits {
 		height:175px;
 	}
-} 
+}
 /*-- //Responsive-Code --*/
