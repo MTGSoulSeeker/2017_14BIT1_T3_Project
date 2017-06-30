@@ -1653,6 +1653,8 @@ div#small-dialog4 {
 .agileheader-banner.w3mensaits {
 	border-top: 1px solid #000;
 	padding-top: 30px;
+	background-size: 50% 25%, contain;
+	height: 200px;
 }
 
 h1.w3wthreeheadingaits {
