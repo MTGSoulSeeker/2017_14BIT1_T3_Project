@@ -1,7 +1,0 @@
-Hướng dẫn Push và Pull
-
-1/ tạo file
-2/ Push
-
-3/ Thay đổi
-4/ Pull 
