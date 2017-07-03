@@ -109,7 +109,7 @@ h1 {
   display: block;
 }
 .navbar .yamm-content ul li a:hover {
-  color: #4fbfa8;
+  color: #aa4236;
   text-decoration: none;
 }
 .navbar .yamm-content .banner {
@@ -150,7 +150,7 @@ h1 {
 #hot h2 {
   text-transform: uppercase;
   font-size: 36px;
-  color: #4fbfa8;
+  color: #aa4236;
   font-weight: 100;
   text-align: center;
 }
@@ -178,7 +178,7 @@ h1 {
 }
 #hot .product-slider .owl-controls .owl-page.active span,
 #hot .product-slider .owl-controls.clickable .owl-page:hover span {
-  background: #4fbfa8;
+  background: #aa4236;
 }
 #advantages {
   text-align: center;
@@ -242,7 +242,7 @@ h1 {
 #main-slider .owl-controls .owl-page.active span,
 .box.slideshow .owl-controls.clickable .owl-page:hover span,
 #main-slider .owl-controls.clickable .owl-page:hover span {
-  background: #4fbfa8;
+  background: #aa4236;
 }
 .breadcrumb {
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
@@ -970,7 +970,7 @@ h1 {
 /*!
  * Yamm!3
  * Yet another megamenu for Bootstrap 3
- * 
+ *
  * http://geedmo.github.com/yamm3
  */
 .yamm .nav,
@@ -1052,7 +1052,7 @@ h1 {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
-  background-color: #4fbfa8;
+  background-color: #aa4236;
 }
 .nav-tabs-justified > li > a {
   border-radius: 4px;
@@ -1258,7 +1258,7 @@ h1 {
   color: #777777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777777;
+  color: #000000;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -1293,8 +1293,8 @@ h1 {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #4fbfa8;
-  color: #555555;
+  background-color: #aa4236;
+  color: #FFFFFF;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -1333,12 +1333,12 @@ body {
   background-color: #f0f0f0;
 }
 a {
-  color: #4fbfa8;
+  color: #aa4236;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #348e7b;
+  color: #000000;
   text-decoration: underline;
 }
 a:focus {
@@ -1478,8 +1478,8 @@ label {
 .pager li > a:hover,
 .pager li > a:focus {
   text-decoration: none;
-  color: #fff;
-  background-color: #eeeeee;
+  color: #ffffff;
+  background-color: #aa4236;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
@@ -1500,7 +1500,7 @@ label {
   padding: 6px 12px;
   line-height: 1.42857143;
   text-decoration: none;
-  color: #4fbfa8;
+  color: #000000;
   background-color: #ffffff;
   border: 1px solid #dddddd;
 }
@@ -1508,7 +1508,7 @@ label {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-  color: #348e7b;
+  color: #aa4236;
   background-color: #eeeeee;
   border-color: #dddddd;
 }
@@ -1519,9 +1519,9 @@ label {
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
   z-index: 2;
-  color: #ffffff;
-  background-color: #4fbfa8;
-  border-color: #4fbfa8;
+  color: #FFFFFF;
+  background-color: #aa4236;
+  border-color: #aa4236;
 }
 .pagination > .disabled > span,
 .pagination > .disabled > span:hover,
@@ -1625,7 +1625,7 @@ blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 14px;
-  border-left: 5px solid #4fbfa8;
+  border-left: 5px solid #aa4236;
 }
 blockquote footer,
 blockquote small,
