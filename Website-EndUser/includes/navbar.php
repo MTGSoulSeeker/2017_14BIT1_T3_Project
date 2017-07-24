@@ -1,3 +1,39 @@
+<?php
+if (isset($_POST["btn_submit"]))
+  {
+  // lấy thông tin người dùng
+  $email = addslashes( $_POST['email'] );
+  $password = md5(addslashes( $_POST['password'] ));
+    if ($email == "" || $password =="")
+    {
+      echo "<div class='text-center'>Do not leave Email or Password blank! <a href='javascript:history.go(-1)' style='text-align:center;'><br>Press here to getback.</a></div>";
+      exit;
+    }
+    else
+    {
+      $sql = "select * from user where email = '$email' and password = '$password'";
+      $query = mysqli_query($conn,$sql);
+      $num_rows = mysqli_num_rows($query);
+      $data = mysqli_fetch_assoc($query);
+      $name = $data['name'];
+      $result = substr($name, 0, 1);
+      if ($num_rows==0)
+      {
+      ?>
+        <script type='text/javascript'>alert("Email or password isn't correct!")</script>
+      <?php
+      }
+      else
+      {
+        session_start();
+        $_SESSION['name'] = $name;
+        $_SESSION['email'] = $email;
+        $_SESSION['Customer_ID'] = $data['id'];
+        header('Location: index.php');
+      }
+    }
+  }
+  ?>
 <!-- *** NAVBAR ***
 _________________________________________________________ -->
 
@@ -99,9 +135,24 @@ _________________________________________________________ -->
                 <li class="dropdown yamm-fw">
                     <a href="contact.php" data-hover="dropdown" data-delay="200">CONTACT</a>
                 </li>
-
-                <li><a href="#" data-hover="dropdown" data-toggle="modal" data-target="#login-modal">Login</a>
-                </li>
+                <?php
+                if (isset($_SESSION['Customer_ID']))
+                {
+                  echo" <li class='dropdown yamm-fw'>
+                          <a href='#' data-hover='dropdown' data-toggle='modal'>".substr($_SESSION['name'],strlen($_SESSION['name'])-8,strlen($_SESSION['name']))."</a>
+                          <ul class='dropdown-menu' style='min-width:100px; width:100px; margin-left:51.78%'>
+                            <div class='col-sm-4'>
+                              <li><a href='customer-account.php'>Profile</a></li>
+                              <li><a href='logout.php'>Logout</a></li>
+                            </div>
+                          </ul>";
+                }
+                else
+                {
+                  echo" <li><a href='#' data-hover='dropdown' data-toggle='modal' data-target='#login-modal'>Login</a>
+                        </li>";
+                }
+                ?>
                 <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true">
                     <div class="modal-dialog modal-sm">
                         <div class="modal-content">
@@ -110,23 +161,20 @@ _________________________________________________________ -->
                                 <h4 class="modal-title" id="Login">Customer login</h4>
                             </div>
                             <div class="modal-body">
-                                <form action="customer-orders.php" method="post">
+                                <form role="form" action="customer-orders.php" method="post">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="email-modal" placeholder="email">
+                                        <input type="text" class="form-control" id="email-modal" placeholder="email" name="email">
                                     </div>
                                     <div class="form-group">
-                                        <input type="password" class="form-control" id="password-modal" placeholder="password">
+                                        <input type="password" class="form-control" id="password-modal" placeholder="password" name="password">
                                     </div>
 
                                     <p class="text-center">
-                                        <button class="btn btn-danger"><i class="fa fa-sign-in"></i> Log in</button>
+                                      <input name="btn_submit" class="btn btn-danger" value="Log in" type="submit">
                                     </p>
-
                                 </form>
-
                                 <p class="text-center text-muted">Not registered yet?</p>
                                 <p class="text-center text-muted"><a href="register.php"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
-
                             </div>
                         </div>
                     </div>
