@@ -29,7 +29,7 @@
       $sqli = "select * from product where id = $id";
       $rs = mysqli_query($conn,$sqli);
       $data= mysqli_fetch_array($rs);
-      if($data['sale']==1)
+      if($data['status']==1)
       {
         $price=$data['price']*(1-$data['sale_percent']);
       }
@@ -38,8 +38,6 @@
         $price=$data['price'];
       }
       $temp_sum=$price*$sl;
-      echo $data['name'];
-      echo $temp_sum;
       $sum+=$price*$sl;
       // Tiến hành tạo tài khoản
       $str= "insert into bill_detail(id,product_id,quantity,sum) values ('$bill_id','$id','$sl','$temp_sum')";
@@ -53,11 +51,11 @@
 
   if ($sum>0)
   {
-    echo 'Success<br>';
-    echo "<a href='index.php'>Back to Homepage</a>";
+    echo "<div class='col-md-offset-5'> Success <br>";
+    echo "<a class='col-md-offset-5' href='index.php'>Back to Homepage</a></div>";
   }
   else
-  echo "Fail";
+  echo "<div class='col-md-offset-5'> Success</div>";
 ?>
 <?php
     include "includes/footer.php";

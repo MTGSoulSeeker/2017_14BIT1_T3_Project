@@ -84,7 +84,7 @@
                                             </td>
                                             <td><?php echo $data['price']; ?></td>
                                             <td>$<?php
-                                              if($data['sale']==1)
+                                              if($data['status']==1)
                                               {
                                                 $rs=$data['price']*$data['sale_percent'];
                                                 echo $rs;

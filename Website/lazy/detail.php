@@ -66,8 +66,8 @@ $data2 = mysqli_fetch_array($rs2);
                                 } ?></p>
 
                                 <p class="text-center buttons">
-                                    <a href="basket.php" class="btn btn-danger"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                    <a href="basket.php" class="btn btn-default"><i class="fa fa-heart"></i> Add to wishlist</a>
+                                    <a href="add_basket.php?id=<?php echo $data['id'];?>" class="btn btn-danger"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    <a href="#" class="btn btn-default"><i class="fa fa-heart"></i> Add to wishlist</a>
                                 </p>
 
 
