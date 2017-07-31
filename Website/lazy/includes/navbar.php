@@ -139,7 +139,7 @@ _________________________________________________________ -->
                 if (isset($_SESSION['Customer_ID']))
                 {
                   echo" <li class='dropdown yamm-fw'>
-                          <a href='#' data-hover='dropdown' data-toggle='modal'>".substr($_SESSION['name'],strlen($_SESSION['name'])-8,strlen($_SESSION['name']))."</a>
+                          <a href='#' data-hover='dropdown' data-toggle='modal'>".$_SESSION['name']."</a>
                           <ul class='dropdown-menu' style='min-width:100px; width:100px; margin-left:51.78%'>
                             <div class='col-sm-4'>
                               <li><a href='customer-account.php'>Profile</a></li>
@@ -187,7 +187,7 @@ _________________________________________________________ -->
         <div class="navbar-buttons">
 
             <div class="navbar-collapse collapse right" id="basket-overview">
-                <a href="basket.php" class="btn btn-danger navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
+                <a href="basket.php" class="btn btn-danger navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">Check cart</span></a>
             </div>
             <!--/.nav-collapse -->
 

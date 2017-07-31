@@ -2,7 +2,15 @@
   include "includes/header.php";
   include "includes/navbar.php";
 ?>
-
+<?php
+$id = $_GET['cid'];
+$sqli = "select * from product where id=$id";
+$sqli2 = "select * from product_img where product_id=$id";
+$rs = mysqli_query($conn,$sqli);
+$rs2 = mysqli_query($conn,$sqli2);
+$data = mysqli_fetch_array($rs);
+$data2 = mysqli_fetch_array($rs2);
+?>
     <!-- *** NAVBAR END *** -->
 
     <div id="all">
@@ -14,24 +22,15 @@
                     <ul class="breadcrumb">
                         <li><a href="#">Home</a>
                         </li>
-                        <li><a href="#">Ladies</a>
+                        <li><a href="#">Men</a>
                         </li>
-                        <li><a href="#">Tops</a>
-                        </li>
-                        <li>White Blouse Armani</li>
+                        <li><?php echo $data['name']; ?></li>
                     </ul>
 
                 </div>
 
 <?php include "includes/left_menu.php"; ?>
 <?php
-      $id = $_GET['cid'];
-      $sqli = "select * from product where id=$id";
-      $sqli2 = "select * from product_img where product_id=$id";
-      $rs = mysqli_query($conn,$sqli);
-      $rs2 = mysqli_query($conn,$sqli2);
-      $data = mysqli_fetch_array($rs);
-      $data2 = mysqli_fetch_array($rs2);
       echo"         <div class='col-md-9'>
                     <div class='row' id='productMain'>
                         <div class='col-sm-6'>

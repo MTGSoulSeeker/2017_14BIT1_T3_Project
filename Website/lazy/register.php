@@ -41,7 +41,7 @@ if (isset($_POST["btn_submit_rg"]))
     if ($str)
     {
                 print "<div class='logo'>Account $email is created.</div>";
-                exit();
+                header('Location:register.php');
     }
     else
     {
