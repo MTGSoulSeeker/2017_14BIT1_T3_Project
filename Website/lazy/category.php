@@ -71,18 +71,18 @@
                   <div class='flip-container'>
                       <div class='flipper'>
                           <div class='front'>
-                              <a href='detail.php'>
+                              <a href='detail.php?cid=$data[id]'>
                                   <img src='../../lazy-admin/image/product/$data2[img]' alt='' class='img-responsive'>
                               </a>
                           </div>
                           <div class='back'>
-                              <a href='detail.php'>
+                              <a href='detail.php?cid=$data[id]'>
                                   <img src='../../lazy-admin/image/product/$data2[img]' alt='' class='img-responsive'>
                               </a>
                           </div>
                       </div>
                   </div>
-                  <a href='detail.php' class='invisible'>
+                  <a href='detail.php?cid=$data[id]' class='invisible'>
                       <img src='img/product1.jpg' alt='' class='img-responsive'>
                   </a>
                   <div class='text'>

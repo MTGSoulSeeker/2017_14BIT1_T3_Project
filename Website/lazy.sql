@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 31, 2017 at 05:12 PM
+-- Generation Time: Aug 01, 2017 at 05:11 AM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -205,46 +205,64 @@ CREATE TABLE `product_img` (
 --
 
 INSERT INTO `product_img` (`img_id`, `product_id`, `img`) VALUES
-(30, 10, '_MG_9943.jpg'),
-(31, 10, '6a00e54ecca8b98833012875d5f417970c-450wi.jpg'),
-(32, 10, '05179a16a53e907bf24e0e9d029020cb.jpg'),
-(33, 10, '7780ecc387aabc6afbb84bfa1cdf51ea--leather-men-leather-jackets.jpg'),
-(34, 11, 'ClarissaTinker127111995332.jpg'),
-(35, 11, 'dress_varennamaxi_peach_fl3_grande.jpg'),
-(36, 11, 'fccb15f7eb70b3d4b78a0dddef0204da--men-summer-summer-.jpg'),
-(37, 11, 'd9095e096e1a7004993ba393c5e82e83--le-style-fashion-shoot.jpg'),
-(38, 12, 'harriett_mchugh_6.jpg'),
-(39, 12, 'ml_50ed9c48-bf78-4f96-805d-05a80a4e4996.jpg'),
-(40, 12, 'prt_450x600_1497264575.jpg'),
-(41, 12, 'SUITCASE-Magazine-Fashion-Week-Daniela-Barros.jpg'),
-(42, 13, '0c4fc0746b27a9b75941ebb219eaf5c4--tokyo-fashion-k-fashion.jpg'),
-(43, 13, '6_61987.jpg'),
-(44, 13, '8e38ee9453c36b8c79f75a1429b216d3--ulzzang-fashion-k-fashion.jpg'),
-(45, 13, '9ee297512b2ba56d2402427d602b02e8--yoon-eun-hye-couple.jpg'),
-(46, 14, '043d82429d1aae91937d1cacbca2110e--k-pop-girls-kpop-fashion.jpg'),
-(47, 14, '80cf2fc2a74b5a75b1a180ae27ec365c--girls-generation-sunny-kpop-fashion.jpg'),
-(48, 14, '105d73abfc1e1aef775f448d8f5427f0--korean-idols-korean-men.jpg'),
-(49, 14, '191ce4cb5df35027cb64cbab6c066474--go-ara-latest-fashion.jpg'),
-(50, 15, '7100af6da8ace48f359bd0c5168afd94--red-skater-skirt-skater-skirts.jpg'),
-(51, 15, '29732.jpg'),
-(52, 15, '144416_P_1406083459760.jpg'),
-(53, 15, '144416_P_1406083459837.jpg'),
-(54, 16, '9839127710878-4347.jpg'),
-(55, 16, 'a6ae0ee1861b6bc26a5d0678f61d44da--k-pop-girls-k-fashion.jpg'),
-(56, 16, 'Bae.Suzy.600.107619.jpg'),
-(57, 16, 'e1a21ed9c6f052e607db2188c2850f6d--fall-winter-fashion-fall-.jpg'),
-(58, 17, 'fb8a082e6af18f49b7bdff6efae0f17d--kpop-fashion-asian-fashion.jpg'),
-(59, 17, 'fd1e249867ccd4402562357bd7cd5e87--fall--winner-kpop.jpg'),
-(60, 17, 'IU.600.84265.jpg'),
-(61, 17, 'large.jpg'),
 (62, 18, 'original.jpg'),
 (63, 18, 'yoona-10-nam-kpop-19.jpg'),
 (64, 18, '_MG_9943.jpg'),
 (65, 18, '6a00e54ecca8b98833012875d5f417970c-450wi.jpg'),
-(66, 19, '05179a16a53e907bf24e0e9d029020cb.jpg'),
-(67, 19, '7780ecc387aabc6afbb84bfa1cdf51ea--leather-men-leather-jackets.jpg'),
-(68, 19, 'ClarissaTinker127111995332.jpg'),
-(69, 19, 'd9095e096e1a7004993ba393c5e82e83--le-style-fashion-shoot.jpg');
+(70, 10, '1ac39d28c310b00d381d09282f5d6b80--male-style-style-men.jpg'),
+(71, 10, '2ce96e87e52b2f50ff0bedc42fb0718a--denim-men-jeans-denim.jpg'),
+(72, 10, '3c9ee8acbc51b60add9d951c225b3201--men-fashion-shadows.jpg'),
+(73, 10, '4f20ab1ca5fd5e9cc181d337e62fd08a.jpg'),
+(74, 11, '5cbd37586717f5ac939852e53ea13f72.jpg'),
+(75, 11, '5ff65a4b0f7745f61b64061ddf755e87--clothing-styles-men-fashion.jpg'),
+(76, 11, '8e822a39db2b280c743845033b4c47cf--fashion-styles-fashion-men.jpg'),
+(77, 11, '9df977f299803ac510ba96d7f28f7425--black-trousers-style-for-men.jpg'),
+(78, 12, '24cb32867a4933575563d8cdabce1511--brown-tweed-suit-tweed-men.jpg'),
+(79, 12, '48dd3bc22739a8e34c8501575309165d--fashion-casual-men-fashion.jpg'),
+(80, 12, '66d9c84f872a64a27e21e23371ff7363--mens-fall-fashion-latest-men-fashion.jpg'),
+(81, 12, '67bb7051e418a6e291f2d060a65014cb--mens-denim-blue-denim-shirt.jpg'),
+(82, 13, '67d890da1bace894f72eb417c1a0f510--winter-coats-for-men-black-fur-coat.jpg'),
+(83, 13, '79d8db0570be013e4974aeae371d50bc--fashion-for-men-bald-men-fashion-outfits.jpg'),
+(84, 13, '374c91de01d00ffa0ac0f05ac198b4ab--street-style-fashion-men-fashion.jpg'),
+(85, 13, '1278c8168476b5a5ab22db3f8c5fcaa0.jpg'),
+(86, 14, '26840_P_1334202081607.jpg'),
+(87, 14, '46501d174b94e6da5b94dd0e891a3f5e--groom-fashion-man-fashion.jpg'),
+(88, 14, '76561dbcdfcaffe8a930a45038548066--bb-style-style-men.jpg'),
+(89, 14, '961470a56200d6debdef38b8bda897f0--brunello-cucinelli-mens-suits.jpg'),
+(90, 15, 'a20a9e0fc2806444287e3eb110477298--suit-fashion-mens-fashion.jpg'),
+(91, 15, 'afb5f90fb72b636c685b9b11c1f9415a--mens-suits--boss-.jpg'),
+(92, 15, 'bf6453cc0841ea471a4383d619a78f8d--fashion-models-fashion-men.jpg'),
+(93, 15, 'c4f754c6f2c910b86f65c43b7437dd93--color-coordination-khakis.jpg'),
+(98, 17, 'f42f49e7906141fb839fbc3770a3a3e7--guy-style-style-men.jpg'),
+(99, 17, 'f77f896533821f9c4d5ba61dc8819aa7.jpg'),
+(100, 17, 'male-fashion-fall-outfits-style-ideas.jpg'),
+(101, 18, 'uH7RFf F C Polo Nike - Men Clothes.jpg'),
+(102, 18, 'unnamed (1).jpg'),
+(103, 18, 'unnamed.jpg'),
+(104, 19, '9df977f299803ac510ba96d7f28f7425--black-trousers-style-for-men.jpg'),
+(105, 19, '5cbd37586717f5ac939852e53ea13f72.jpg'),
+(106, 19, '67bb7051e418a6e291f2d060a65014cb--mens-denim-blue-denim-shirt.jpg'),
+(108, 10, '3c9ee8acbc51b60add9d951c225b3201--men-fashion-shadows.jpg'),
+(109, 10, '48dd3bc22739a8e34c8501575309165d--fashion-casual-men-fashion.jpg'),
+(110, 10, '8e822a39db2b280c743845033b4c47cf--fashion-styles-fashion-men.jpg'),
+(111, 10, '79d8db0570be013e4974aeae371d50bc--fashion-for-men-bald-men-fashion-outfits.jpg'),
+(112, 11, '5cbd37586717f5ac939852e53ea13f72.jpg'),
+(113, 11, '67bb7051e418a6e291f2d060a65014cb--mens-denim-blue-denim-shirt.jpg'),
+(114, 11, 'd03d1e8e43f45e83a61e3b4860ad8ab8.jpg'),
+(115, 12, '961470a56200d6debdef38b8bda897f0--brunello-cucinelli-mens-suits.jpg'),
+(116, 12, 'bf6453cc0841ea471a4383d619a78f8d--fashion-models-fashion-men.jpg'),
+(117, 12, 'afb5f90fb72b636c685b9b11c1f9415a--mens-suits--boss-.jpg'),
+(118, 12, 'unnamed (1).jpg'),
+(119, 13, '5ff65a4b0f7745f61b64061ddf755e87--clothing-styles-men-fashion.jpg'),
+(120, 13, 'c4f754c6f2c910b86f65c43b7437dd93--color-coordination-khakis.jpg'),
+(121, 13, '374c91de01d00ffa0ac0f05ac198b4ab--street-style-fashion-men-fashion.jpg'),
+(122, 13, 'bf6453cc0841ea471a4383d619a78f8d--fashion-models-fashion-men.jpg'),
+(130, 17, 'e5efb9b0dd6e8b1084ae1e79fa34ec4f--daily-fashion-spring-fashion.jpg'),
+(134, 19, 'a20a9e0fc2806444287e3eb110477298--suit-fashion-mens-fashion.jpg'),
+(135, 16, '48dd3bc22739a8e34c8501575309165d--fashion-casual-men-fashion.jpg'),
+(136, 16, 'afb5f90fb72b636c685b9b11c1f9415a--mens-suits--boss-.jpg'),
+(137, 16, 'd03d1e8e43f45e83a61e3b4860ad8ab8.jpg'),
+(138, 16, 'a20a9e0fc2806444287e3eb110477298--suit-fashion-mens-fashion.jpg');
 
 -- --------------------------------------------------------
 
@@ -343,7 +361,7 @@ ALTER TABLE `product`
 -- AUTO_INCREMENT for table `product_img`
 --
 ALTER TABLE `product_img`
-  MODIFY `img_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=70;
+  MODIFY `img_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=139;
 --
 -- AUTO_INCREMENT for table `user`
 --

@@ -6,7 +6,7 @@ Project: Website Men Fashion
 
 Teachers:
 
-1.Trương Phước Lộc.
+1.Trường Phước Lộc.
 
 2.Lâm Quang Vũ.
 
